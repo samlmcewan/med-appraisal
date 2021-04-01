@@ -653,7 +653,7 @@ section {
     margin-bottom: 20px;
     padding-bottom: 0;
     font-family: "Poppins", sans-serif;
-    color: #635551;
+    color: #212529;
   }
   
   .section-title p {
@@ -769,8 +769,8 @@ section {
 }
 
 .recent-blog-posts .post-box .post-title {
-  font-size: 24px;
-  color: #012970;
+  font-size: 18px;
+  color: #384046;
   font-weight: 700;
   margin-bottom: 18px;
   position: relative;
@@ -850,3 +850,142 @@ section {
 nav {
   font-size: 16px;
 }
+
+/*--------------------------------------------------------------
+# Featured Services
+--------------------------------------------------------------*/
+.featured-services .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #11a7e2;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+  color: #fff;
+  }
+  
+  .featured-services .icon-box h4 {color:#fff;
+  }
+  
+   .featured-services .icon-box::before {
+  content: '';
+  position: absolute;
+  background: #003366;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 100%;
+  transition: all 0.3s;
+  z-index: -1;
+  color:#000;
+  }
+  
+   .featured-services .icon-box::before {
+  color: #000;
+  }
+  .featured-services .icon-box:hover::before {
+  background: #003366;
+  top: 0;
+  border-radius: 0px;
+  color: #000;
+  }
+  
+  .featured-services .icon {
+  margin-bottom: 15px;
+  }
+  
+   .featured-services .icon i {
+  font-size: 48px;
+  line-height: 1;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  }
+  
+  .featured-services .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+  }
+  
+   .featured-services .title a {
+  color: #fff;
+  text-decoration: none;
+  }
+  
+  .featured-services .description {
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 0;
+  }
+  
+  .featured-services .icon-box:hover .title a, .featured-services .icon-box:hover .description {
+  color: #fff;
+  }
+  
+  .featured-services .icon-box:hover .icon i {
+  color: #fff;
+  }
+  .row{padding-bottom:20px;}
+  
+  .btn-bluedark {
+  background: #163f6b;
+  color: #ffffff;
+  border: #cccccc;}
+  
+  .btn-bluedark:hover {color: #ffffff;}
+  
+  .background-blue {background: #163f6b;}
+  
+  .card-title h4 {color: #163f6b;text-decoration: none;}
+  
+  /*--------------------------------------------------------------
+  # Services
+  --------------------------------------------------------------*/
+  .services .icon-box {
+  padding: 30px;
+  border-radius: 6px;
+  background: #fff;
+  transition: ease-in-out 0.3s;
+  }
+  
+   .services .icon-box i {
+  float: left;
+  color: #3498db;
+  font-size: 40px;
+  line-height: 0;
+  padding-top:10px;
+  }
+  
+   .services .icon-box h4 {
+  margin-left: 70px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+  }
+  
+   .services .icon-box h4 a {
+  color: #384046;
+  transition: 0.3s;
+  }
+  
+   .services .icon-box p {
+  margin-left: 70px;
+  line-height: 24px;
+  font-size: 16px;
+  }
+  
+   .services .icon-box:hover {
+  box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.08);
+  }
+  
+   .services .icon-box:hover h4 a {
+  color: #3498db;
+  }
+
+  #services {
+    /* background-color: #f7fbfe; */
+    /* background-color: #1979cc11; */
+    background-color: #436f991c;
+  }

@@ -1,4 +1,15 @@
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
 /* Footer styles */
+
+footer {
+    font-size: 1.13rem;
+    line-height: 2.26rem;
+}
 
 footer ul {
     padding: 0;
@@ -10,6 +21,7 @@ footer ul li   {
 
 footer ul li a {
     color: #555555;
+    
 }
 
 .blue {
@@ -54,7 +66,7 @@ footer ul li a {
 
 
 footer {
- background-color: #f6f6f6;   
+ background-color: #fff;   
  color: #555555;
 }
 
