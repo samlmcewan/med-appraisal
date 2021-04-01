@@ -1,0 +1,133 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template/modern-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+body {
+  /* padding-top: 56px; */
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+/*MY STUFF*/
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#banner {
+    /*width: 100%;
+    height: 100vh;
+    background: url("hero-bg.jpg") top center no-repeat;*/
+    background-size: cover;
+    position: relative;
+    /*padding-top: 82px;*/
+}
+
+    #banner:before {
+        content: "";
+        background: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    #banner h1 {
+        margin: 0;
+        font-size: 48px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    #banner h2 {
+        color: #fff;
+        margin: 10px 0 0 0;
+        font-size: 24px;
+    }
+
+    #banner .btn-get-started {
+        font-family: "Raleway", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 1px;
+        display: inline-block;
+        padding: 10px 30px;
+        border-radius: 4px;
+        transition: 0.5s;
+        margin-top: 30px;
+        color: #fff;
+        background: #e03a3c;
+        border: 2px solid #e03a3c;
+    }
+
+        #banner .btn-get-started:hover {
+            background: transparent;
+            border-color: #fff;
+        }
+
+@media (max-width: 768px) {
+    #banner {
+        text-align: center;
+        padding-top: 58px;
+    }
+
+        #banner h1 {
+            font-size: 28px;
+        }
+
+        #banner h2 {
+            font-size: 18px;
+            line-height: 24px;
+        }
+}
+
+@media (max-height: 500px) {
+    #banner {
+        height: 120vh;
+    }
+
+    /*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+    #topbar {
+        background: #3fbbc0;
+        color: #fff;
+        height: 40px;
+        font-size: 16px;
+        font-weight: 600;
+        z-index: 996;
+        transition: all 0.5s;
+    }
+
+        #topbar.topbar-scrolled {
+            top: -40px;
+        }
+
+        #topbar i {
+            padding-right: 6px;
+            line-height: 0;
+        }
+
+    /*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+    .navbar {
+        top: 40px;
+        margin-top:40px;
+    }
+    
+   
