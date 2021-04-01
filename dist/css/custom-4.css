@@ -20,12 +20,23 @@ footer ul li   {
 }
 
 footer ul li a {
-    color: #555555;
+    /* color: #555555; */
+    /* color: #F2F3F3; */
+  
+color: #ffffff;
     
 }
 
 .blue {
-    color: #1977cc;
+    /* color: #1977cc; */
+    /* color: #EDF2F7; */
+    /* color: #BCCFE1; */
+    color: #A4C2D6;
+    
+}
+
+.sub-footer p {
+    font-size: 1.13rem;
 }
 
 
@@ -37,7 +48,9 @@ footer ul li a {
 
 .footer-social-icon {
     padding: 0.25rem;
-    color: #1977cc;
+    /* color: #1977cc; */
+    color: #A4C2D6;
+
 }
 
 /* .logo-container-footer {
@@ -66,13 +79,34 @@ footer ul li a {
 
 
 footer {
- background-color: #fff;   
- color: #555555;
+ /* background-color: #fff;   
+ color: #555555; */
+
+ /* background-color: #437099; */
+ /* color: #F2F3F3; */
+
+ /* background-color: #23394D; */
+ background-color: #1F3242;
+ color: #ffffff;
+
+
 }
 
 .sub-footer {
-    background-color: #eeeeee;
-    color: #555555;
+    /* background-color: #eeeeee;
+    color: #555555; */
+
+    /* background-color: #23394D;
+    color: #BCCFE1; */
+
+    /* background-color: #335575;
+color: #ffffff; */
+
+    /* background-color: #141F29;
+     */
+     /* background-color: #1F3242; */
+     background-color: #1C2E3B;
+    color: #ffffff;
 }
 
 
