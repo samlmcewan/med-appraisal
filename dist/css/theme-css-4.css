@@ -574,6 +574,8 @@ section {
     z-index: 5;
     box-shadow: 10px 2px 15px rgba(0, 0, 0, 0.1);
   }
+
+  
   
   #hero .btn-get-started {
     font-family: "Raleway", sans-serif;
@@ -590,11 +592,51 @@ section {
     position: relative;
     z-index: 4;
   }
-  
   #hero .btn-get-started:hover {
     background: #1977cc;
   }
+
+  /* OWN HERO BUTTON ANIMATION  */
+
+  #hero .get-started-icon:hover {
+    /* animation: get-started 5s ease-in-out alternate-reverse paused; */
+    animation: get-started 1s ;
+
+  }
+
+  .hoverHero {
+    animation: get-started 1s ;
+  }
+
+  @keyframes get-started {
+    from {
+      transform: translateX(0%);
+    }
   
+    to {
+      transform: translateX(10px);
+    }
+  }
+
+ 
+ 
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
   @media (min-width: 1024px) {
     #hero {
       background-attachment: fixed;

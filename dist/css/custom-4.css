@@ -87,6 +87,7 @@ footer {
 
  /* background-color: #23394D; */
  background-color: #1F3242;
+
  color: #ffffff;
 
 
@@ -105,9 +106,12 @@ color: #ffffff; */
     /* background-color: #141F29;
      */
      /* background-color: #1F3242; */
-     background-color: #1C2E3B;
+     background-color: #437099;
+     /* background-color: #1C2E3B; */
     color: #ffffff;
 }
+
+
 
 
 nav {
@@ -123,3 +127,8 @@ nav {
       width: 80%;
       margin: auto;
   }
+
+
+
+
+  
