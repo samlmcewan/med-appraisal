@@ -604,12 +604,13 @@ section {
 
   #hero .get-started-icon:hover {
     /* animation: get-started 5s ease-in-out alternate-reverse paused; */
-    animation: get-started 1s ;
+    animation: get-started 0.3s ;
 
   }
 
   .hoverHero {
-    animation: get-started 1s infinite alternate;
+    /* animation: get-started 1s infinite alternate; */
+    animation: get-started 0.3s linear forwards;
   }
 
   @keyframes get-started {
@@ -622,7 +623,19 @@ section {
     }
   }
 
- 
+  .hoverHeroLeave {
+    animation: get-started-two 0.3s linear forwards;
+  }
+
+  @keyframes get-started-two {
+    from {
+      transform: translateX(10px);
+    }
+  
+    to {
+      transform: translateX(0px);
+    }
+  }
  
 
 
