@@ -197,7 +197,7 @@ nav {
        /* color: #437099; */
     }
 
-    #topbar a, .navbar a, .list-group-item:hover, .nav-container a {
+    #topbar a, .navbar a, .list-group-item:hover, .nav-container a, .heroBtn a {
 
         text-decoration: none;
     }
