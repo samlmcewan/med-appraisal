@@ -140,6 +140,7 @@ nav {
     font-size: 18px;
   }
 
+ 
 .bi {
     font-size: 1.3rem;
   }
@@ -153,18 +154,9 @@ nav {
 
 
 
-  .breadcrumb {
-    /* box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08); */
-    background-color: #ffffff;
-    padding-left: 0;
-  }
 
-  .dropdown-header {
-      padding-left: 6px;
-      padding-top: 12px;
-      padding-bottom: 12px;
-      font-size: 16px;
-  }
+  
+
 .list-group {
     /* box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08); */
     
@@ -205,6 +197,11 @@ nav {
        /* color: #437099; */
     }
 
+    #topbar a, .navbar a, .list-group-item:hover, .nav-container a {
+
+        text-decoration: none;
+    }
+
 
 
     .top-social-icon {
@@ -226,5 +223,69 @@ nav {
 
 
     .title-bar {
+        /* border-top: 4px solid #1977cc; */
+        /* border-bottom: 4px solid #1977cc; */
+        /* background-color: #F1F5F8; */
+
+        background: rgb(241,245,248);
+        background: linear-gradient(180deg, rgba(241,245,248,1) 0%, rgba(255,255,255,1) 96%);
+
+
+        /* background-color: #1977cc;
+        color: #ffffff;  */
+
+        /* background-color: #436f991c; */
+        /* color: #1977CC; */
+
+
+        
+
+        
+       
+        
+    }
+
+
+
+    .inner-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.75rem 1rem;
+        
+
+    }
+
+    .inner-header h1 {
+        margin-bottom: 0;
+    }
+
+    .breadcrumb {
+        /* box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08); */
+        background-color: transparent;
+        /* padding-left: 0; */
+        margin-bottom: 0;
+        padding: 0;
+      }
+
+      .dropdown-header {
+        padding-left: 6px;
+        padding-top: 0px;
+        padding-bottom: 12px;
+        font-size: 16px;
+    }
+    
+    .list-group-item:hover {
+        /* color: #A4C2D6; */
         background-color: #F1F5F8;
+        animation: sidebar-move 0.3s linear forwards;
+    }
+    
+    @keyframes sidebar-move {
+        from {
+            transform: translateX(0px);
+        }
+        to {
+            transform: translateX(5px);
+        }
     }
