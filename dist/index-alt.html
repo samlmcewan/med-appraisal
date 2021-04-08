@@ -38,6 +38,32 @@
 
 
 <body>
+  <!-- Top top bar -->
+  <div id="toptopbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-between align-items-center">
+      
+      <div>
+        <form class="mh-40" action="">
+            <div class="d-flex align-items-center p-1 bg-light search-bar shadow-sm mb-3 mt-3 mh-40">
+                <div class="input-group mh-40">
+                    <input type="search" placeholder="Search..." aria-describedby="button-addon1" class="form-control border-0 bg-light mh-40">
+                    <div class="input-group-append mh-40">
+                        <button id="button-addon1" type="submit" class="btn btn-link text-primary mh-40"><i class="fa fa-search mh-40"></i></button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div id="social-links-alt" class="d-none d-lg-flex social-links align-items-center ">
+      <a href="#" class="twitter top-social-icon"><i class="bi bi-twitter  bi-lg"></i></a>
+          <a href="#" class="facebook top-social-icon"><i class="bi bi-facebook  bi-lg"></i></a>
+          <a href="#" class="instagram top-social-icon"><i class="bi bi-instagram  bi-lg"></i></a>
+          <a href="#" class="linkedin top-social-icon"><i class="bi bi-linkedin  bi-lg"></i></i></a>
+    </div>
+      
+    </div>
+    
+  </div>
 <!-- ======= Top Bar ======= -->
 <div id="topbar" class="d-flex align-items-center ">
     <div class="container d-flex justify-content-between align-items-center">
@@ -46,21 +72,11 @@
             <h1 class="logo me-auto"><a href="index.html">Medical Appraisal Scotland</a></h1>
         </div>
         <div>
-            <form class="pl-3" action="">
-                <div class="p-1 bg-light rounded rounded-pill shadow-sm mb-3 mt-3">
-                    <div class="input-group">
-                        <input type="search" placeholder="Search..." aria-describedby="button-addon1" class="form-control border-0 bg-light">
-                        <div class="input-group-append">
-                            <button id="button-addon1" type="submit" class="btn btn-link text-primary"><i class="fa fa-search"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </form>
-        </div>
-        <div>
-            <img src="assets/img/SOAR.png"  width="110" alt="" class="img-fluid p-2">
-            <img src="assets/img/NES-logo.png" width="110" alt="" class="img-fluid p-2 logo-border">
-        </div>
+          <img src="assets/img/SOAR.png"  width="100" alt="" class="img-fluid p-2">
+          <img src="assets/img/NES-logo.png" width="70" alt="" class="img-fluid logo-border nes-logo-top">
+      </div>
+        
+        
     </div>
         
           
@@ -75,6 +91,7 @@
   <!-- ======= Header ======= -->
   <header id="header" class="">
     <div class="container d-flex align-items-center nav-container">
+      
        
             
         
@@ -161,12 +178,7 @@
       </nav><!-- .navbar -->
 
       <a href="#appointment" class="appointment-btn scrollto">SOAR login</a>
-      <div class="d-none d-lg-flex social-links align-items-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter  bi-lg"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook  bi-lg"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram  bi-lg"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin  bi-lg"></i></i></a>
-            </div>
+      
 
     </div>
   </header><!-- End Header -->
@@ -464,6 +476,8 @@
 
     <!-- theme  -->
     <script src="/js/theme-js.js"></script>
+    <!-- hero button script  -->
+    <script src="/dist/js/hero-button.js"></script>
 </body>
 
 </html>

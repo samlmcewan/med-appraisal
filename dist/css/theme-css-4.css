@@ -55,7 +55,7 @@
 
   #header .social-links a {
     color: #437099;
-    padding-right: 15px;
+    padding-right: 8px;
     display: inline-block;
     line-height: 1px;
     transition: 0.3s;
@@ -1086,3 +1086,6 @@ nav {
   }
 
   /* 437099  */
+
+
+  

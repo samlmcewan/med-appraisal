@@ -188,3 +188,43 @@ nav {
   .search-bar {
     border-radius: 10px;
   }
+
+  #toptopbar {
+      /* background-color: #1977cc; */
+      /* background-color: #436f991c; */
+      background-color: #F1F5F8;
+        color: #ffffff;
+    }
+
+    #social-links-alt a i {
+        /* color: #1977cc; */
+       color: #437099;
+    }
+    #social-links-alt a i:hover {
+        color: #1977cc;
+       /* color: #437099; */
+    }
+
+
+
+    .top-social-icon {
+        padding: 0.25rem;
+    }
+
+    .top-social-icon:hover {
+        animation: icons-rise 0.3s linear forwards;
+    }
+
+    .mh-40 {
+        max-height: 40px;
+    }
+
+    .nes-logo-top {
+        padding: 0.5rem;
+        padding-right: 0;
+    }
+
+
+    .title-bar {
+        background-color: #F1F5F8;
+    }
