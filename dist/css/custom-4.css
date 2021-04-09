@@ -227,8 +227,10 @@ nav {
         /* border-bottom: 4px solid #1977cc; */
         /* background-color: #F1F5F8; */
 
-        background: rgb(241,245,248);
-        background: linear-gradient(180deg, rgba(241,245,248,1) 0%, rgba(255,255,255,1) 96%);
+        /* background: rgb(241,245,248);
+        background: linear-gradient(180deg, rgba(241,245,248,1) 0%, rgba(255,255,255,1) 96%); */
+
+        
 
 
         /* background-color: #1977cc;
@@ -237,7 +239,10 @@ nav {
         /* background-color: #436f991c; */
         /* color: #1977CC; */
 
+        background-color: #437099;
+        color: #ffffff; 
 
+        
         
 
         
@@ -267,6 +272,14 @@ nav {
         margin-bottom: 0;
         padding: 0;
       }
+
+      .breadcrumb a {
+          color: #ffffff;
+      }
+      .breadcrumb-item.active::before, .breadcrumb-item.active {
+          color: #EBF1F5;
+      }
+      
 
       .dropdown-header {
         padding-left: 6px;
