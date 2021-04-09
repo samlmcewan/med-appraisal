@@ -197,7 +197,7 @@ nav {
        /* color: #437099; */
     }
 
-    #topbar a, .navbar a, .list-group-item:hover, .nav-container a, .heroBtn a {
+    #topbar a, .navbar a, .list-group-item:hover, .nav-container a, .heroBtn a, .events .icon-box h4 a {
 
         text-decoration: none;
     }
@@ -309,7 +309,7 @@ nav {
     .hoverList-leave {
         background-color: #ffffff;
         /* background-color: #F1F5F8; */
-        animation: sidebar-move-back 0.1s ease-in-out forwards;
+        animation: sidebar-move-back 0.3s ease-in-out forwards;
     }
     
     @keyframes sidebar-move-back {
@@ -319,4 +319,9 @@ nav {
         to {
             transform: translateX(0px);
         }
+    }
+
+
+    .icon-box:hover {
+        cursor: pointer;
     }
