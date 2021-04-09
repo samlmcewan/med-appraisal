@@ -766,7 +766,7 @@ section {
   }
   
   .why-us .icon-boxes .icon-box {
-    text-align: center;
+    /* text-align: center; */
     border-radius: 10px;
     background: #fff;
     /* box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2); */
@@ -827,6 +827,10 @@ section {
 }
 
 .why-us .icon-boxes .icon-box:hover i  {
+  color: #fff;
+}
+
+.why-us .icon-boxes .icon-box:hover p  {
   color: #fff;
 }
 
@@ -947,9 +951,9 @@ nav {
 }
 
 /*--------------------------------------------------------------
-# Featured Services
+# Featured events
 --------------------------------------------------------------*/
-.featured-services .icon-box {
+.featured-events .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -961,10 +965,10 @@ nav {
   color: #fff;
   }
   
-  .featured-services .icon-box h4 {color:#fff;
+  .featured-events .icon-box h4 {color:#fff;
   }
   
-   .featured-services .icon-box::before {
+   .featured-events .icon-box::before {
   content: '';
   position: absolute;
   background: #003366;
@@ -977,49 +981,49 @@ nav {
   color:#000;
   }
   
-   .featured-services .icon-box::before {
+   .featured-events .icon-box::before {
   color: #000;
   }
-  .featured-services .icon-box:hover::before {
+  .featured-events .icon-box:hover::before {
   background: #003366;
   top: 0;
   border-radius: 0px;
   color: #000;
   }
   
-  .featured-services .icon {
+  .featured-events .icon {
   margin-bottom: 15px;
   }
   
-   .featured-services .icon i {
+   .featured-events .icon i {
   font-size: 48px;
   line-height: 1;
   color: #fff;
   transition: all 0.3s ease-in-out;
   }
   
-  .featured-services .title {
+  .featured-events .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
   }
   
-   .featured-services .title a {
+   .featured-events .title a {
   color: #fff;
   text-decoration: none;
   }
   
-  .featured-services .description {
+  .featured-events .description {
   font-size: 16px;
   line-height: 28px;
   margin-bottom: 0;
   }
   
-  .featured-services .icon-box:hover .title a, .featured-services .icon-box:hover .description {
+  .featured-events .icon-box:hover .title a, .featured-events .icon-box:hover .description {
   color: #fff;
   }
   
-  .featured-services .icon-box:hover .icon i {
+  .featured-events .icon-box:hover .icon i {
   color: #fff;
   }
   .row{padding-bottom:20px;}
@@ -1036,16 +1040,16 @@ nav {
   .card-title h4 {color: #163f6b;text-decoration: none;}
   
   /*--------------------------------------------------------------
-  # Services
+  # events
   --------------------------------------------------------------*/
-  .services .icon-box {
+  .events .icon-box {
   padding: 30px;
   border-radius: 6px;
   background: #fff;
   transition: ease-in-out 0.3s;
   }
   
-   .services .icon-box i {
+   .events .icon-box i {
   float: left;
   color: #3498db;
   font-size: 40px;
@@ -1053,33 +1057,33 @@ nav {
   padding-top:10px;
   }
   
-   .services .icon-box h4 {
+   .events .icon-box h4 {
   margin-left: 70px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
   }
   
-   .services .icon-box h4 a {
+   .events .icon-box h4 a {
   color: #384046;
   transition: 0.3s;
   }
   
-   .services .icon-box p {
+   .events .icon-box p {
   margin-left: 70px;
   line-height: 24px;
   font-size: 16px;
   }
   
-   .services .icon-box:hover {
+   .events .icon-box:hover {
   box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.08);
   }
   
-   .services .icon-box:hover h4 a {
+   .events .icon-box:hover h4 a {
   color: #3498db;
   }
 
-  #services {
+  #events {
     /* background-color: #f7fbfe; */
     /* background-color: #1979cc11; */
     background-color: #436f991c;

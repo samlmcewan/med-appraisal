@@ -3,373 +3,378 @@
 
 <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <title>Modern Business - Start Bootstrap Template</title>
+    <title>Scottish Medical Appraisal</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
-  <link href="css/modern-business.css" rel="stylesheet">
-  <!-- Custom styles -->
-  <link href="css/custom.css" rel="stylesheet">
-  <!-- Font Awesome -->
-  <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
-  <script src="https://kit.fontawesome.com/b5c26ce5f8.js" crossorigin="anonymous"></script>
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet">
+    <!-- Custom styles -->
+    
+    <link href="css/custom-4.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <script src="https://kit.fontawesome.com/b5c26ce5f8.js" crossorigin="anonymous"></script>
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Swiper  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
+
+    <link href="css/theme-css-4.css" rel="stylesheet">
 </head>
 
-<body>
 
-  <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <div class="container">
-      <a class="navbar-brand" href="index.html">Scottish Medical Appraisal</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="i-want-access-to.html" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      I want access to...
-                  </a>
-                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                      <a class="dropdown-item" href="i-want-access-to.html">I want access to...</a>
-                      <a class="dropdown-item" href="portfolio-1-col.html">Toolkits</a>
-                      <a class="dropdown-item" href="portfolio-2-col.html">QIA Examples</a>
-                      <a class="dropdown-item" href="portfolio-3-col.html">Medical Royal Colleges and Faculties</a>
-                      <a class="dropdown-item" href="portfolio-4-col.html">Annual Reports</a>
-                      <a class="dropdown-item" href="portfolio-item.html">MARQA Reports</a>
-                      <a class="dropdown-item" href="portfolio-item.html">General Publications</a>
-                      <a class="dropdown-item" href="portfolio-item.html">Appraiser Conferences</a>
-                      <a class="dropdown-item" href="portfolio-item.html">Health Board Resources</a>
-                      <a class="dropdown-item" href="portfolio-item.html">Other Appraisal Resources</a>
-                      <a class="dropdown-item" href="portfolio-item.html">Resources for Appraisal Leads</a>
-                      <a class="dropdown-item" href="portfolio-item.html">Resources for Appraisers</a>
-                      <a class="dropdown-item" href="portfolio-item.html">Training Resources</a>
+<body>
+ <!-- ======= Top Bar ======= -->
+ <div id="topbar" class="d-flex align-items-center ">
+  <div class="container d-flex justify-content-between align-items-center">
+      
+      <div class="d-none d-lg-flex social-links align-items-center">
+          <h1 class="logo me-auto"><a href="index.html">Medical Appraisal Scotland</a></h1>
+      </div>
+      <div>
+          <form class="pl-3 mh-40" action="">
+              <div class="d-flex align-items-center p-1 bg-light search-bar  shadow-sm mb-3 mt-3 mh-40">
+                  <div class="input-group">
+                      <input type="search" placeholder="Search..." aria-describedby="button-addon1" class="mh-40 form-control border-0 bg-light">
+                      <div class="input-group-append mh-40">
+                          <button id="button-addon1" type="submit" class="mh-40 btn btn-link text-primary"><i class="fa fa-search mh-40"></i></button>
+                      </div>
                   </div>
-              </li>
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="help-me-with.html" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Help me with...
-                  </a>
-                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                      <a class="dropdown-item" href="help-me-with.html">Help me with...</a>
-                      <a class="dropdown-item" href="portfolio-1-col.html">SOAR</a>
-                      <a class="dropdown-item" href="portfolio-2-col.html">Revalidation</a>
-                      <a class="dropdown-item" href="portfolio-3-col.html">Appraisal</a>
-                      <a class="dropdown-item" href="portfolio-4-col.html">Multi-Source Feedback (MSF)</a>
-                      <a class="dropdown-item" href="portfolio-item.html">Recognition of Trainers</a>
-                      <a class="dropdown-item" href="portfolio-item.html">FAQs</a>
-                      <a class="dropdown-item" href="portfolio-item.html">Technical Queries</a>
-                      <a class="dropdown-item" href="portfolio-item.html">Glossary</a>
-                  </div>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="news.html">News</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="events.html">Events</a>
-              </li>
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="be-an-appraiser.html" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Be an Appraiser
-                  </a>
-                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                      <a class="dropdown-item" href="be-an-appraiser.html">Be an Appraiser</a>
-                      <a class="dropdown-item" href="portfolio-1-col.html">Application packs for GPs</a>
-                      <a class="dropdown-item" href="portfolio-2-col.html">Application packs for Secondary Care users</a>
-                      <a class="dropdown-item" href="portfolio-3-col.html">Pre-Course Documentation</a>
-                      <a class="dropdown-item" href="portfolio-4-col.html">Simulated Medical Appraisal Interview</a>
-                  </div>
-              </li>
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="contacts.html" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Contacts
-                  </a>
-                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                      <a class="dropdown-item" href="contacts.html">Contacts</a>
-                      <a class="dropdown-item" href="portfolio-1-col.html">Deanery Contacts (for Trainees)</a>
-                      <a class="dropdown-item" href="portfolio-2-col.html">Local Administration Teams</a>
-                      <a class="dropdown-item" href="portfolio-3-col.html">Appraisal Leads</a>
-                      <a class="dropdown-item" href="portfolio-4-col.html">Responsible Officers</a>
-                      <a class="dropdown-item" href="#">Central Appraisal Team</a>
-                      <a class="dropdown-item" href="#">SOAR User Support</a>
-                      <a class="dropdown-item" href="#">Feedback / Report a problem</a>
-                  </div>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="soar-login.html">SOAR Login</a>
-              </li>
-          </ul>
+              </div>
+          </form>
+      </div>
+      <div>
+          <img src="assets/img/SOAR.png"  width="100" alt="" class="img-fluid p-2">
+          <img src="assets/img/NES-logo.png" width="70" alt="" class="img-fluid logo-border nes-logo-top">
       </div>
   </div>
-</nav>
+      
+        
+    <!-- <div class="contact-info d-flex align-items-center">
+      <i class="bi bi-envelope"></i> <a href="/cdn-cgi/l/email-protection#4b2824253f2a283f0b2e332a263b272e65282426"><span class="__cf_email__" data-cfemail="e5868a8b91848691a5809d8488958980cb868a88">[email&#160;protected]</span></a>
+      <i class="bi bi-phone"></i> +1 5589 55488 55
+    </div> -->
+    
+  </div>
+</div>
 
-  <!-- Page Content -->
-  <div class="container">
+<!-- ======= Header ======= -->
+<header id="header" class="">
+  <div class="container d-flex align-items-center nav-container">
+     
+          
+      
 
-    <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-4 mb-3">Appraisal Events
+    <!-- <h1 class="logo me-auto"><a href="index.html">Medical Appraisal Scotland</a></h1> -->
+    <!-- Uncomment below if you prefer to use an image logo -->
+    
+
+    <nav id="navbar" class="navbar order-last order-lg-0">
+      <ul>
+        <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+        <li class="dropdown"><a href="#"><span>I want access to...</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            
+              <a href="#">Toolkits</a>
+              <a href="#">QIA Examples</a>
+              <a href="#">Medical Royal Colleges and Faculties</a>
+              <a href="#">Annual Reports</a>
+              <a href="#">MARQA Reports</a>
+              <a href="#">General Publications</a>
+              <a href="#">Appraiser Conferences</a>
+              <a href="#">Health Board Resources</a>
+              <a href="#">Other Appraisal Resources</a>
+              <a href="#">Resources for Appraisal Leads</a>
+              <a href="#">Resources for Appraisers</a>
+              <a href="#">Training Resources</a>
+          </ul>
+        </li>
+        <li class="dropdown"><a href="#"><span>Help me with...</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+             
+              <a href="#">SOAR</a>
+              <a href="#">Revalidation</a>
+              <a href="#">Appraisal</a>
+              <a href="#">Multi-Source Feedback (MSF)</a>
+              <a href="#">Recognition of Trainers</a>
+              <a href="#">FAQs</a>
+              <a href="#">Technical Queries</a>
+              <a href="#">Glossary</a>
+          </ul>
+        </li>
+        <li><a class="nav-link scrollto" href="#">News</a></li>
+        <li><a class="nav-link scrollto" href="#">Events</a></li>
+        <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="#">Drop Down 1</a></li>
+            <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+              <ul>
+                <li><a href="#">Deep Drop Down 1</a></li>
+                <li><a href="#">Deep Drop Down 2</a></li>
+                <li><a href="#">Deep Drop Down 3</a></li>
+                <li><a href="#">Deep Drop Down 4</a></li>
+                <li><a href="#">Deep Drop Down 5</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Drop Down 2</a></li>
+            <li><a href="#">Drop Down 3</a></li>
+            <li><a href="#">Drop Down 4</a></li>
+          </ul>
+        </li> -->
+        <li class="dropdown"><a href="#"><span>Be an appraiser</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+              
+                      <a class="dropdown-item" href="#">Application packs for GPs</a>
+                      <a class="dropdown-item" href="#">Application packs for Secondary Care users</a>
+                      <a class="dropdown-item" href="#">Pre-Course Documentation</a>
+                      <a class="dropdown-item" href="#">Simulated Medical Appraisal Interview</a>
+          </ul>
+        </li>
+        
+        
+        <li class="dropdown"><a href="#"><span>Contacts</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+              
+              <a class="dropdown-item" href="#">Deanery Contacts (for Trainees)</a>
+              <a class="dropdown-item" href="#">Local Administration Teams</a>
+              <a class="dropdown-item" href="#">Appraisal Leads</a>
+              <a class="dropdown-item" href="#">Responsible Officers</a>
+              <a class="dropdown-item" href="#">Central Appraisal Team</a>
+              <a class="dropdown-item" href="#">SOAR User Support</a>
+              <a class="dropdown-item" href="#">Feedback / Report a problem</a>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
+
+    <a href="#" class="appointment-btn scrollto">SOAR login</a>
+    
+
+  </div>
+</header><!-- End Header -->
+ 
+
+
+ <!-- Page Content -->
+ <div class=" container-fluid title-bar">
+   <div class="container inner-header">
+     <!-- Page Heading/Breadcrumbs -->
+    <h1 >News
       <!-- <small>Subheading</small> -->
     </h1>
-
+  
     <ol class="breadcrumb">
-      <li class="breadcrumb-item">
-        <a href="index.html">Home</a>
+      <li class="breadcrumb-item d-flex align-items-center">
+        <i class="bx bx-chevron-right blue"></i><a href="index.html">Home</a>
       </li>
-      <li class="breadcrumb-item active">Events</li>
+      <li class="breadcrumb-item active">News</li>
     </ol>
+   </div>
 
+ </div>
+ 
+ <section id="events" class="events section-bg">
+  <div class="container">
+
+    
+    
     <!-- Content Row -->
     <div class="row">
       <!-- Sidebar Column -->
       <div class="col-lg-3 mb-4">
         <div class="list-group">
-          <h2 class="dropdown-header">Filter events</h2>  
-          <a href="#" class="list-group-item">Show all (24)</a>
-          <a href="about.html" class="list-group-item">New Appraiser training NES (22)</a>
-          <a href="services.html" class="list-group-item">Experienced Appraiser training NES (0)</a>
-          <a href="contact.html" class="list-group-item">Refresher Appraiser training NES (0)</a>
-          <a href="portfolio-1-col.html" class="list-group-item">Conferences and Meetings NES (1)</a>
-          <a href="portfolio-2-col.html" class="list-group-item">SOAR Training (0)</a>
-          <a href="portfolio-2-col.html" class="list-group-item">Non NES events (1)</a>
+          <h2 class="dropdown-header">Filter news</h2>  
+          <a href="#" class="list-group-item">Show all (52)</a>
+          <a href="about.html" class="list-group-item">Appraisal (17)</a>
+          <a href="services.html" class="list-group-item">Revalidation (5)</a>
+          <a href="contact.html" class="list-group-item">SOAR News (24)</a>
+          <a href="portfolio-1-col.html" class="list-group-item">Announcements (13)</a>
+          <a href="portfolio-2-col.html" class="list-group-item">Other (8)</a>
         </div>
       </div>
       <!-- Content Column -->
       <div class="col-lg-9 mb-4">
         <div class="row">
-          <div class="col-lg-4 mb-4">
-              <div class="card h-100">
-                  <h4 class="card-header"><small>April 2021</small></h4>
-                  <div class="card-body">
-                      <h2 class="card-text">Next steps dermoscopy course</h2><hr>
-                      <p><i class="fas fa-stopwatch"></i> 1 day event</p>
-                      <p><i class="far fa-calendar-alt"></i> 23 April 2021</p>
-                      <p><i class="fas fa-map-marker-alt"></i> Microsoft Teams</p>
-                      
-                  </div>
-                  <div class="card-footer">
-                      <a href="#" class="btn btn-primary">Read More</a>
-                  </div>
-              </div>
+          <div class="col-lg-6">
+            <div class="icon-box">
+              <i class='bx bx-calendar'></i>
+              <h4><a href="#">Next Steps Dermoscopy Course</a></h4>
+              <p>Date: 23 Apr 2021 </p>
+              <p>Location: MS Teams</p>
+            </div>
           </div>
-          <div class="col-lg-4 mb-4">
-            <div class="card h-100">
-                <h4 class="card-header"><small>May 2021</small></h4>
-                <div class="card-body">
-                    <h2 class="card-text">New appraiser (N78 AM)</h2><hr>
-                    <p><i class="fas fa-stopwatch"></i> 2 day event</p>
-                    <p><i class="far fa-calendar-alt"></i> 05 May 2021 (Part 1)</p>
-                    <p><i class="far fa-calendar-alt"></i> 12 May 2021 (Part 2)</p>
-                    <p><i class="fas fa-map-marker-alt"></i> Microsoft Teams</p>
-                    <p><i class="fas fa-clock"></i> 9am to 12.30pm</p>
-                    
-                </div>
-                <div class="card-footer">
-                    <a href="#" class="btn btn-primary">Read More</a>
-                </div>
+          <div class="col-lg-6">
+            <div class="icon-box">
+              <i class='bx bx-calendar'></i>
+              <h4><a href="#">Next Steps Dermoscopy Course</a></h4>
+              <p>Date: 23 Apr 2021 </p>
+              <p>Location: MS Teams</p>
             </div>
-        </div>
-          <div class="col-lg-4 mb-4">
-            <div class="card h-100">
-                <h4 class="card-header"><small>May 2021</small></h4>
-                <div class="card-body">
-                    <h2 class="card-text">New appraiser (N78 PM)</h2><hr>
-                    <p><i class="fas fa-stopwatch"></i> 2 day event</p>
-                    <p><i class="far fa-calendar-alt"></i> 05 May 2021 (Part 1)</p>
-                    <p><i class="far fa-calendar-alt"></i> 12 May 2021 (Part 2)</p>
-                    <p><i class="fas fa-map-marker-alt"></i> Microsoft Teams</p>
-                    <p><i class="fas fa-clock"></i> 1.30pm to 5pm</p>
-                    
-                </div>
-                <div class="card-footer">
-                    <a href="#" class="btn btn-primary">Read More</a>
-                </div>
-            </div>
-        </div>
-      </div>
-      <!-- /.row -->
-      <div class="row">
-          <div class="col-lg-4 mb-4">
-              <div class="card h-100">
-                  <h4 class="card-header"><small>May 2021</small></h4>
-                  <div class="card-body">
-                      <h2 class="card-text">New appraiser (N79 AM)</h2><hr>
-                      <p><i class="fas fa-stopwatch"></i> 2 day event</p>
-                      <p><i class="far fa-calendar-alt"></i> 19 May 2021 (Part 1)</p>
-                      <p><i class="far fa-calendar-alt"></i> 25 May 2021 (Part 2)</p>
-                      <p><i class="fas fa-map-marker-alt"></i> Microsoft Teams</p>
-                      <p><i class="fas fa-clock"></i> 9am to 12.30pm</p>
-                      
-                  </div>
-                  <div class="card-footer">
-                      <a href="#" class="btn btn-primary">Read More</a>
-                  </div>
-              </div>
           </div>
-          <div class="col-lg-4 mb-4">
-            <div class="card h-100">
-                <h4 class="card-header"><small>May 2021</small></h4>
-                <div class="card-body">
-                    <h2 class="card-text">New appraiser (N79 PM)</h2><hr>
-                    <p><i class="fas fa-stopwatch"></i> 2 day event</p>
-                    <p><i class="far fa-calendar-alt"></i> 19 May 2021 (Part 1)</p>
-                      <p><i class="far fa-calendar-alt"></i> 25 May 2021 (Part 2)</p>
-                    <p><i class="fas fa-map-marker-alt"></i> Microsoft Teams</p>
-                    <p><i class="fas fa-clock"></i> 1.30pm to 5pm</p>
-                    
-                </div>
-                <div class="card-footer">
-                    <a href="#" class="btn btn-primary">Read More</a>
-                </div>
-            </div>
+          
+
+          
         </div>
-          <div class="col-lg-4 mb-4">
-            <div class="card h-100">
-                <h4 class="card-header"><small>May 2021</small></h4>
-                <div class="card-body">
-                    <h2 class="card-text">2021 Scottish Medical Appraisers conference</h2><hr>
-                    <p><i class="fas fa-stopwatch"></i> Remote Workshops</p>
-                    <p><i class="far fa-calendar-alt"></i> 27 May 2021 (Part 1)</p>
-                    <p><i class="far fa-calendar-alt"></i> 28 May 2021 (Part 2)</p>
-                    <p><i class="fas fa-map-marker-alt"></i> Online</p>
-                    <p><i class="fas fa-clock"></i> Various</p>
-                    
-                </div>
-                <div class="card-footer">
-                    <a href="#" class="btn btn-primary">Read More</a>
-                </div>
+        <!-- / .row -->
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="icon-box">
+              <i class='bx bx-calendar'></i>
+              <h4><a href="#">Next Steps Dermoscopy Course</a></h4>
+              <p>Date: 23 Apr 2021 </p>
+              <p>Location: MS Teams</p>
             </div>
-        </div>
-      </div>
-      <!-- /.row -->
-      <div class="row">
-          <div class="col-lg-4 mb-4">
-              <div class="card h-100">
-                  <h4 class="card-header"><small>June 2021</small></h4>
-                  <div class="card-body">
-                      <h2 class="card-text">New appraiser (N80 AM)</h2><hr>
-                      <p><i class="fas fa-stopwatch"></i> 2 day event</p>
-                      <p><i class="far fa-calendar-alt"></i> 09 Jun 2021 (Part 1)</p>
-                      <p><i class="far fa-calendar-alt"></i> 17 Jun 2021 (Part 2)</p>
-                      <p><i class="fas fa-map-marker-alt"></i> Microsoft Teams</p>
-                      <p><i class="fas fa-clock"></i> 9am to 12.30pm</p>
-                      
-                  </div>
-                  <div class="card-footer">
-                      <a href="#" class="btn btn-primary">Read More</a>
-                  </div>
-              </div>
           </div>
-          <div class="col-lg-4 mb-4">
-            <div class="card h-100">
-                <h4 class="card-header"><small>June 2021</small></h4>
-                <div class="card-body">
-                    <h2 class="card-text">New appraiser (N80 PM)</h2><hr>
-                    <p><i class="fas fa-stopwatch"></i> 2 day event</p>
-                    <p><i class="far fa-calendar-alt"></i> 09 Jun 2021 (Part 1)</p>
-                    <p><i class="far fa-calendar-alt"></i> 17 Jun 2021 (Part 2)</p>
-                    <p><i class="fas fa-map-marker-alt"></i> Microsoft Teams</p>
-                    <p><i class="fas fa-clock"></i> 1.30pm to 5pm</p>
-                    
-                </div>
-                <div class="card-footer">
-                    <a href="#" class="btn btn-primary">Read More</a>
-                </div>
+          <div class="col-lg-6">
+            <div class="icon-box">
+              <i class='bx bx-calendar'></i>
+              <h4><a href="#">Next Steps Dermoscopy Course</a></h4>
+              <p>Date: 23 Apr 2021 </p>
+              <p>Location: MS Teams</p>
             </div>
-        </div>
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100">
-              <h4 class="card-header"><small>June 2021</small></h4>
-              <div class="card-body">
-                  <h2 class="card-text">New appraiser (N81 AM)</h2><hr>
-                  <p><i class="fas fa-stopwatch"></i> 2 day event</p>
-                  <p><i class="far fa-calendar-alt"></i> 19 August 2021 (Part 1)</p>
-                    <p><i class="far fa-calendar-alt"></i> 26 August 2021 (Part 2)</p>
-                  <p><i class="fas fa-map-marker-alt"></i> Microsoft Teams</p>
-                  <p><i class="fas fa-clock"></i> 9am to 12.30pm</p>
-                  
-              </div>
-              <div class="card-footer">
-                  <a href="#" class="btn btn-primary">Read More</a>
-              </div>
           </div>
-      </div>
-      </div>
-      <!-- /.row -->
+          
+          
+        </div>
+        <!-- / .row -->
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="icon-box">
+              <i class='bx bx-calendar'></i>
+              <h4><a href="#">Next Steps Dermoscopy Course</a></h4>
+              <p>Date: 23 Apr 2021 </p>
+              <p>Location: MS Teams</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="icon-box">
+              <i class='bx bx-calendar'></i>
+              <h4><a href="#">Next Steps Dermoscopy Course</a></h4>
+              <p>Date: 23 Apr 2021 </p>
+              <p>Location: MS Teams</p>
+            </div>
+          </div>
+          
+
+        </div>
+        <!-- / .row -->
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="icon-box">
+              <i class='bx bx-calendar'></i>
+              <h4><a href="#">Next Steps Dermoscopy Course</a></h4>
+              <p>Date: 23 Apr 2021 </p>
+              <p>Location: MS Teams</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="icon-box">
+              <i class='bx bx-calendar'></i>
+              <h4><a href="#">Next Steps Dermoscopy Course</a></h4>
+              <p>Date: 23 Apr 2021 </p>
+              <p>Location: MS Teams</p>
+            </div>
+          </div>
+
+          
+
+          
+        </div>
+        <!-- / .row -->
         
       </div>
     </div>
     <!-- /.row -->
-
+  
   </div>
   <!-- /.container -->
 
-  <footer class="py-5 bg-dark">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 mb-4 text-white">
-               <h5>Site information</h5> 
-               <ul>
-                   <li><a href="">Accessibility</a></li>
-                   <li><a href="">Complaints</a></li>
-                   <li><a href="">Privacy</a></li>
-                   <li><a href="">Terms & Conditions</a></li>
-                   <li><a href="">Freedom of information</a></li>
-                   <li><a href="">Sitemap</a></li>
-               </ul>
-            </div>
-            <div class="col-lg-4 mb-4 text-white">
-                <h5>NES Websites</h5> 
-                <ul>
-                    <li><a href="">The NES Website</a></li>
-                    <li><a href="">The Portal</a></li>
-                    <li><a href="">Scottish Online Appraisal Resource (SOAR)</a></li>
-                    <li><a href="">ePortfolio</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-4 mb-4 text-white">
-                <h5>Contact</h5> 
-                <ul>
-                    <li><a href="">Deanery Contacts (for Trainees)</a></li>
-                    <li><a href="">Local Administration Teams</a></li>
-                    <li><a href="">Appraisal Leads</a></li>
-                    <li><a href="">Responsible Officers</a></li>
-                    <li><a href="">Central Appraisal Team</a></li>
-                    <li><a href="">SOAR User Support</a></li>
-                    <li><a href="">Feedback / Report a problem</a></li>
-                    <li><a href="">COVID19</a></li>
-                </ul>
-                
-            </div>
-        </div>            
-    </div>
-    <!-- /.container -->
-</footer>
-<div class="sub-footer py-5 bg-dark"> 
-    <p class="m-0 text-center text-white">&copy; NHS Education for Scotland 2021</p>
-    <div class="icons-footer">
-        
-       <a class="footer-social-icon" href=""><i class="fab fa-facebook-square"></i></a>
-       <a class="footer-social-icon" href=""><i class="fab fa-twitter-square"></i></a>
-       <a class="footer-social-icon" href=""><i class="fab fa-linkedin"></i></a>
-       <a class="footer-social-icon" href=""><i class="fab fa-vimeo-square"></i></a>  
-    </div>
-</div>
+ </section>
+ 
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+    <!-- Footer -->
+    <footer class="py-5 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                   <h5>Site information</h5> 
+                   <ul>
+                       <li><i class="bx bx-chevron-right blue"></i><a href="">Accessibility</a></li>
+                       <li><i class="bx bx-chevron-right blue"></i><a href="">Complaints</a></li>
+                       <li><i class="bx bx-chevron-right blue"></i><a href="">Privacy</a></li>
+                       <li><i class="bx bx-chevron-right blue"></i><a href="">Terms & Conditions</a></li>
+                       <li><i class="bx bx-chevron-right blue"></i><a href="">Freedom of information</a></li>
+                       <li><i class="bx bx-chevron-right blue"></i><a href="">Sitemap</a></li>
+                   </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5>NES Websites</h5> 
+                    <ul>
+                        <li><i class="bx bx-chevron-right blue"></i><a href="">The NES Website</a></li>
+                        <li><i class="bx bx-chevron-right blue"></i><a href="">The Portal</a></li>
+                        <li><i class="bx bx-chevron-right blue"></i><a href="">Scottish Online Appraisal Resource (SOAR)</a></li>
+                        <li><i class="bx bx-chevron-right blue"></i><a href="">ePortfolio</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5>Contact</h5> 
+                    <ul>
+                        <li><i class="bx bx-chevron-right blue"></i><a href="">Deanery Contacts (for Trainees)</a></li>
+                        <li><i class="bx bx-chevron-right blue"></i><a href="">Local Administration Teams</a></li>
+                        <li><i class="bx bx-chevron-right blue"></i><a href="">Appraisal Leads</a></li>
+                        <li><i class="bx bx-chevron-right blue"></i><a href="">Responsible Officers</a></li>
+                        <li><i class="bx bx-chevron-right blue"></i><a href="">Central Appraisal Team</a></li>
+                        <li><i class="bx bx-chevron-right blue"></i><a href="">SOAR User Support</a></li>
+                        <li><i class="bx bx-chevron-right blue"></i><a href="">Feedback / Report a problem</a></li>
+                        <li><i class="bx bx-chevron-right blue"></i><a href="">COVID19</a></li>
+                    </ul>
+                    
+                </div>
+            </div>            
+        </div>
+        <!-- /.container -->
+    </footer>
+    <div class="sub-footer py-4 "> 
+        <p class="m-0 text-center pb-2 ">&copy; NHS Education for Scotland 2021</p>
+        <div class="icons-footer">
+            
+           <a class="footer-social-icon" href=""><i class="fab fa-facebook-square fa-2x"></i></a>
+           <a class="footer-social-icon" href=""><i class="fab fa-twitter-square fa-2x"></i></a>
+           <a class="footer-social-icon" href=""><i class="fab fa-linkedin fa-2x"></i></a>
+           <a class="footer-social-icon" href=""><i class="fab fa-vimeo-square fa-2x"></i></a>  
+        </div>
+    </div>
 
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- swiper  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- theme  -->
+    <script src="/js/theme-js.js"></script>
+
+    <!-- sidebar script  -->
+    <script src="/dist/js/sidebar.js"></script>
+    <script src="/js/sidebar.js"></script>
+    <script src="js/sidebar.js"></script>
+    
 </body>
 
 </html>
